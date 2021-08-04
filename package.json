@@ -6,7 +6,7 @@
     "scripts": {
         "start": "ts-node src/startup/index.ts",
         "dev": "nodemon src/startup/index.ts",
-        "start:dev": "ts-node-dev --respawn --transpile-only dist/startup/index.ts",
+        "start:dev": "ts-node-dev --respawn --transpile-only src/startup/index.ts",
         "start:prod": "tsc -p .",
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "eslint src/* --fix"

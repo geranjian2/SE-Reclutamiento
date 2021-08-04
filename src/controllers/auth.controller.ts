@@ -1,13 +1,12 @@
 import { Request, Response } from 'express';
-import { GET, POST, route, before } from 'awilix-express';
+import {  POST, route, before } from 'awilix-express';
 import { AuthService, RegisterResult } from "../services";
-import { IUser } from '../interfaces/user.interface';
 import { StatusHelper } from '../helpers/status.helper';
 import { ValidationError, ValidationErrorPlace } from '../errors/validation.error';
 import { LoginRequestDto,RegisterUserDto } from '../dtos/';
-import { authValidate, dtoValidationMiddleware } from '../middlewares';
+import { dtoValidationMiddleware } from '../middlewares';
 import { HandlerHelper } from '../helpers';
-import { plainToClass, Expose } from "class-transformer";
+import { plainToClass } from "class-transformer";
 
 
 
@@ -24,7 +23,7 @@ export class AuthController{
     // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
     public async register(req:Request,res:Response){
         const reqUser = plainToClass(RegisterUserDto, req.body);
-        const result = await this._authService.register(reqUser as IUser); 
+        const result = await this._authService.register(reqUser); 
         if (result === RegisterResult.Success){
           HandlerHelper.success(req,res,"Register success",RegisterResult.Success,StatusHelper.status204NoContent);
           return;

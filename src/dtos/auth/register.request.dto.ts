@@ -21,5 +21,5 @@ export class RegisterUserDto {
     @Expose()
     @IsEmail()
     email!: string;
-  
+
   }

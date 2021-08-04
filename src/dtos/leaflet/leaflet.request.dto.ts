@@ -1,6 +1,5 @@
 import { IsDefined, IsString, MinLength, IsEmail, IsNotEmpty } from 'class-validator';
 import { Expose } from 'class-transformer';
-import { jsonIgnore } from 'json-ignore';
 
 export class LeafletRequestDto  {
   
