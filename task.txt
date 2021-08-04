@@ -1,0 +1,56 @@
+1. Crear el modelo para guardar seguimiento de un prospecto
+Aspiración Salarial 	
+Disponibilidad
+Observaciones
+Usuario quien registra
+
+2. crear los masestros parametrizados
+
+Estado
+Pendiente por llamar
+Pendiente Hoja de Vida
+Pendiente enviar perfil
+Perfil enviado al cliente
+En Prueba Técnica Cliente
+En Validación Técnica Interna
+En Entrevista Interna
+En Entrevista Cliente
+Rechazado
+Recomendado para otro proceso
+Para semillero
+Aceptado
+No contesta
+
+Fuente Reclutamiento
+Computrabajo
+Linkedin
+Instragram
+Facebook
+Torre
+Trabajo si Hay
+Full Empleo
+OLX
+Interfell
+Opción Empleo
+Red Trabaje
+Aliado Laboral
+SENA
+Comfama
+UR Remoto
+Referido
+Bolsa de empleo Practicantes Cesde
+referido
+Correo de talento humano
+
+Motivo Cancelación
+No acepta 70%, 30%
+Muy Costoso
+No está interesado
+Contraoferta
+Cliente no aceptó validarlo
+No pasó validación técnica interna
+No pasó Entrevista Cliente
+No pasó Prueba Cliente
+No presentó prueba
+No pasó Inglés
+No tiene permiso de trabajo
