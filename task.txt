@@ -2,6 +2,7 @@
 Aspiración Salarial 	
 Disponibilidad
 Observaciones
+fuente de reclutamiento
 Usuario quien registra
 
 2. crear los masestros parametrizados
@@ -54,3 +55,5 @@ No pasó Prueba Cliente
 No presentó prueba
 No pasó Inglés
 No tiene permiso de trabajo
+
+4. Al modelo leaflet agregar la parametrización de estado y motivo de cancelación

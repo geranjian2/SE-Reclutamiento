@@ -1,6 +1,7 @@
 import mongoose,{ Schema } from 'mongoose';
 import { ILeaflet } from '../interfaces/';
 import  autopopulate from 'mongoose-autopopulate';
+
 const LeafletSchema =  new Schema({
     name:{type:String,required:true},
     lastName:{type:String,required:true},
