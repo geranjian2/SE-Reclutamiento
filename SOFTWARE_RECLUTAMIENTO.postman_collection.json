@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "39a30e66-40cf-4963-8dfb-665df8a8f8ad",
+		"name": "SOFTWARE_RECLUTAMIENTO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LEAFLET",
+			"item": [
+				{
+					"name": "SAVE LEATLEF",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYxMGExZDNjYzUxYTViNTRhYWYxMzcyZiIsIm5hbWUiOiJBbmRyZXMiLCJ1c2VybmFtZSI6ImdlcmFuamlhbiIsImVtYWlsIjoiZ2VyYW5qaWFuMkBnbWFpbC5jb20iLCJfX3YiOjB9LCJpYXQiOjE2MjgwNTI4NzMsImV4cCI6MTYyODA2NzI3M30.h6D9gDtYwkAidKgCZrvT0n1dv_PfuXvRX1kWGdQbVNo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Dayana\",\r\n\"lastName\":\"Lopez\",\r\n\"email\":\"dayana.lopez@gmail.com\",\r\n\"document\":\"1234245545\",\r\n\"vacancyName\":\"ScrumMaster\",\r\n\"customerName\":\"Matrix\",\r\n\"phone\":\"31321456987\",\r\n\"experience\":\"2 años\",\r\n\"academicLevel\":\"Ingeniero de sistemas\",\r\n\"city\":\"Bogotá\"\r\n}  ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/leaflet",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"leaflet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL LEATLEF",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYxMDlmMDA5NjI1NTMwNTMwZTRmZmRhNSIsIm5hbWUiOiJBbmRyZXMiLCJ1c2VybmFtZSI6ImdlcmFuamlhbiIsImVtYWlsIjoiZ2VyYW5qaWFuQGdtYWlsLmNvbSIsIl9fdiI6MH0sImlhdCI6MTYyODA0MjA0NCwiZXhwIjoxNjI4MDU2NDQ0fQ.m_BYg614fZPOdXVVO_i13S8AdCqDYLQ6WodzmMDLkeE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Dayana\",\r\n\"lastName\":\"Lopez\",\r\n\"email\":\"dayana.lopez@gmail.com\",\r\n\"document\":\"1234245545\",\r\n\"vacancyName\":\"ScrumMaster\",\r\n\"customerName\":\"Matrix\",\r\n\"phone\":\"31321456987\",\r\n\"experience\":\"2 años\",\r\n\"academicLevel\":\"Ingeniero de sistemas\",\r\n\"city\":\"Bogotá\"\r\n}  ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/leaflet",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"leaflet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ID LEATLEF",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYxMDlmMDA5NjI1NTMwNTMwZTRmZmRhNSIsIm5hbWUiOiJBbmRyZXMiLCJ1c2VybmFtZSI6ImdlcmFuamlhbiIsImVtYWlsIjoiZ2VyYW5qaWFuQGdtYWlsLmNvbSIsIl9fdiI6MH0sImlhdCI6MTYyODA0MjA0NCwiZXhwIjoxNjI4MDU2NDQ0fQ.m_BYg614fZPOdXVVO_i13S8AdCqDYLQ6WodzmMDLkeE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Dayana\",\r\n\"lastName\":\"Lopez\",\r\n\"email\":\"dayana.lopez@gmail.com\",\r\n\"document\":\"1234245545\",\r\n\"vacancyName\":\"ScrumMaster\",\r\n\"customerName\":\"Matrix\",\r\n\"phone\":\"31321456987\",\r\n\"experience\":\"2 años\",\r\n\"academicLevel\":\"Ingeniero de sistemas\",\r\n\"city\":\"Bogotá\"\r\n}  ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/leaflet/610a1daac51a5b54aaf13734",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"leaflet",
+								"610a1daac51a5b54aaf13734"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AUTH",
+			"item": [
+				{
+					"name": "LOGIN",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"geranjian2@gmail.com\",\r\n    \"password\":\"1234567\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/auth/login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "REGISTER USER",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Andres\",\r\n    \"username\":\"geranjian\",\r\n    \"password\":\"1234567\",\r\n    \"email\":\"geranjian2@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/auth/register",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
